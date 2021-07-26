@@ -1,4 +1,4 @@
 "# SimpleCRUD for Code Review" 
 
-user : admin
+user : admin\
 pass : admin
