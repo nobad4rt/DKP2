@@ -23,7 +23,6 @@
         $notif = $stmt->rowCount();
         if ($stmt->rowCount() > 0) {
             $_SESSION['user'] = $user;
-
             header("location: index.php");
         } else {
             $notif = "Wrong usename or password";
@@ -35,6 +34,7 @@
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
         <label for="inputUsername" class="sr-only">Username</label>
         <input type="username" id="inputUsername" name="username" class="form-control" placeholder="Username" required autofocus>
+        <br>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
         <div class="checkbox mb-3">
