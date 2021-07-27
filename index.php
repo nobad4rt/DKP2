@@ -11,6 +11,7 @@ if (!isset($_SESSION['user'])) {
 ?>
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +25,7 @@ if (!isset($_SESSION['user'])) {
 
         <title>Dashboard</title>
     </head>
+
     <body>
         <div class="container">
             <h2>Dashboard</h2>
@@ -79,6 +81,11 @@ if (!isset($_SESSION['user'])) {
                 </div>
             </div>
         </div>
+
+        <div class="text-center">
+            <p class="mt-5 mb-3 text-muted">hk &copy; 2021</p>
+        </div>
     </body>
+
     </html>
 <?php } ?>

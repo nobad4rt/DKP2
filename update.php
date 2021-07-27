@@ -28,6 +28,7 @@ if (isset($_GET['id'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +36,7 @@ if (isset($_GET['id'])) {
     <?= style_script() ?>
     <title>Change contact</title>
 </head>
+
 <body>
     <div class="container" style="margin-top:50px">
         <div class="row">
@@ -56,5 +58,10 @@ if (isset($_GET['id'])) {
             <div class="col-md-7 col-sm-12 col-xs-12"></div>
         </div>
     </div>
+
+    <div class="text-center">
+        <p class="mt-5 mb-3 text-muted">hk &copy; 2021</p>
+    </div>
 </body>
+
 </html>
