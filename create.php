@@ -2,7 +2,8 @@
 include 'functions.php';
 $pdo = pdo_connect();
 
-if (!empty($_POST)) {
+if (!empty($_POST))
+{
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
